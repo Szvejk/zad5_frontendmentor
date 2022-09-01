@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: hsl(185, 75%, 39%);
+	main {
+		display: flex;
+		justify-content: center;
+	}
+}
+.victor {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 400px;
+	height: 400px;
+	background-color: #fff;
+	margin-top: 50%;
+	border-radius: 10px;
+	.foto {
+		border-radius: 50%;
+	}
+	.name {
+		.age,
+		.main-text {
+			display: inline;
+		}
+		.place {
+			display: flex;
+			justify-content: center;
+		}
+	}
+}
