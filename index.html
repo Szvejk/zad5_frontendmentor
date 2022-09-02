@@ -11,31 +11,32 @@
 			sizes="32x32"
 			href="./images/favicon-32x32.png"
 		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
 		<link rel="stylesheet" href="./css/styles.css" />
 		<title>Frontend Mentor | Profile card component</title>
 	</head>
 	<body>
-		<main>
-			<article class="base">
-
-				<section class="victor">
-					<div class="name">
-            <div class="photo"> 
-						<img src="./images/image-victor.jpg" alt="" class="foto"/></div>
-						<h5 class="main-text">Victor Crest</h5>
-						<p class="age">26</p>
-					
+		<section class="main">
+			<div class="container">
+				<div class="bgc"></div>
+				<div class="foto">
+					<img src="./images/image-victor.jpg" alt="" />
+				</div>
+				<div class="card-body">
+					<h2 class="name">Victor Crest <span class="age">26</span></h2>
 					<p class="place">London</p>
-</div>
-
-				</section>
-				<section class="numbers">
-					<div class="followers">80K Followers</div>
-					<div class="likes">803K Likes</div>
-					<div class="photos">1.4K Photos</div>
-				</section>
-
-			</article>
-		</main>
+					<div class="activity">
+						<p class="likes">803K Likes</p>
+						<p class="photos">1,4K Photos</p>
+						<p class="followers">80K Followers</p>
+					</div>
+				</div>
+			</div>
+		</section>
 	</body>
 </html>
