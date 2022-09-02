@@ -11,6 +11,9 @@ body {
 }
 
 .main {
+  background: url(../images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+  background-repeat: no-repeat;
   background-color: hsl(185deg, 75%, 39%);
   min-height: 100vh;
   display: -webkit-box;
@@ -35,7 +38,7 @@ body {
 .bgc {
   height: 150px;
   width: 350px;
-  background: url(./images/bg-pattern-card.svg);
+  background: url(../images/bg-pattern-card.svg);
   background-size: cover;
 }
 
@@ -57,4 +60,41 @@ body {
 .card-body {
   margin-top: 54px;
   margin-bottom: 54px;
+  height: 200px;
+  line-height: 30px;
+}
+.card-body .name {
+  font-size: 20px;
+}
+.card-body .place {
+  margin-top: 10px;
+}
+.card-body .age,
+.card-body .place {
+  font-weight: 200;
+  font-size: 18px;
+  color: gray;
+}
+.card-body .activity {
+  padding-top: 22px;
+  border-top: 1px solid gray;
+  margin-top: 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.act {
+  display: block;
+  font-weight: 200;
+  color: gray;
 }/*# sourceMappingURL=styles.css.map */
